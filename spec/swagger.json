@@ -120,15 +120,7 @@
               "$ref": "#/definitions/Channel_w"
             }
           }
-        ],
-        "responses": {
-          "201": {
-            "description": "Created Channel",
-            "schema": {
-              "$ref": "#/definitions/Channel_w"
-            }
-          }
-        }
+        ]
       }
     }
   },
