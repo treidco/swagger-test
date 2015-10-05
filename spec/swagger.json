@@ -110,9 +110,7 @@
             "required": true,
             "description": "The id of the publisher",
             "type": "string"
-          }
-        ],
-        "responses": [
+          },
           {
             "name": "channel",
             "in": "body",
@@ -122,7 +120,15 @@
               "$ref": "#/definitions/Channel_w"
             }
           }
-        ]
+        ],
+        "responses": {
+          "201": {
+            "description": "Created Channel",
+            "schema": {
+              "$ref": "#/definitions/Channel_w"
+            }
+          }
+        }
       }
     }
   },
